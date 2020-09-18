@@ -15,6 +15,7 @@ spec:
       containers:
       - name: truyumrepos
         image: truyumpcheck.azurecr.io/truyumrepos:latest
+        //login server
         ports:
         - containerPort: 8080
       imagePullSecrets:
